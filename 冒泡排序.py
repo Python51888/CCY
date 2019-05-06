@@ -19,7 +19,7 @@ if __name__ == '__main__':
         arr.append(int(item))
 
     #开始调用方法
-    list = listSort(arr)
+    list = maoSort(arr)
     print('数据排序如下:')
     for item in list:
         print(item,end = ' ')
