@@ -1,5 +1,5 @@
 #定义排序的方法
-def listSort(arr):
+def maoSort(arr):
     n = len(arr)
     if n < 0:
         return
