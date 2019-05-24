@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43f4e8d7-1b9e-4d95-9d97-b86d08a3fb9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python的函数参数传递.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/哈希算法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/哈希表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/斐波那契数列生成算法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/求一个数的阶乘.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/线程的生命周期.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python基础资料.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础资料.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web框架原理.py" beforeDir="false" afterPath="$PROJECT_DIR$/web框架原理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多任务复习.py" beforeDir="false" afterPath="$PROJECT_DIR$/多任务复习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/多线程练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/多线程练习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/选择排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/选择排序.py" afterDir="false" />
-    </list>
+    <list default="true" id="43f4e8d7-1b9e-4d95-9d97-b86d08a3fb9c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,11 +291,12 @@
       <workItem from="1558484592143" duration="10280000" />
       <workItem from="1558570827322" duration="590000" />
       <workItem from="1558591774376" duration="7041000" />
+      <workItem from="1558660726055" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62417000" />
+    <option name="totallyTimeSpent" value="62977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,9 +308,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14008042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14209116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
