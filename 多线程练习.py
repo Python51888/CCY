@@ -49,15 +49,15 @@ getName()：它是 Thread 类的实例方法，该方法返回调用它的线程
 #2.继承 Thread 类创建线程类
 #通过继承threading.Thread类来创建线程类
 class SubThread(threading.Thread):
-    def __int__(self):
+    def __init__(self):
         threading.Thread.__init__(self)
-        self.i = 0 #实例默认属性值
+        self.i = 0 #实例属性的默认值
     #重写run()方法作为线程执行体
     def run(self):
         while self.i < 100:
             # 调用threading模块current_thread()函数获取当前线程
             # 线程对象的getName()方法获取当前线程的名字
-            print(threading.current_thread().getName() + '--' + str(self.i))
+            print(threading.current_thread().getName() + " " + str(self.i))
             self.i += 1
     pass
 #下面是主程序(主线程的执行体)
@@ -78,30 +78,6 @@ print('主线程执行完成!!!')
 通常来说，推荐使用第一种方式来创建线程，因为这种方式不仅编程简单，而且线程直接包装 target 函数，具有更清晰的逻辑结构。
 '''
 
-# 通过继承threading.Thread类来创建线程类
-class FkThread(threading.Thread):
-    def __init__(self):
-        threading.Thread.__init__(self)
-        self.i = 0
-    # 重写run()方法作为线程执行体
-    def run(self):
-        while self.i < 100:
-            # 调用threading模块current_thread()函数获取当前线程
-            # 线程对象的getName()方法获取当前线程的名字
-            print(threading.current_thread().getName() +  " " + str(self.i))
-            self.i += 1
-# 下面是主程序（也就是主线程的执行体）
-for i in range(100):
-    # 调用threading模块current_thread()函数获取当前线程
-    print(threading.current_thread().getName() +  " " + str(i))
-    if i == 20:
-        # 创建并启动第一个线程
-        ft1 = FkThread()
-        ft1.start()
-        # 创建并启动第二个线程
-        ft2 = FkThread()
-        ft2.start()
-print('主线程执行完成!')
 
 
 
